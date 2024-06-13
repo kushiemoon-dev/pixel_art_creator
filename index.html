@@ -1,24 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixel Art Generator</title>
     <link rel="stylesheet" href="style.css">
+    <title>#1 - Pixel Art Generator </title>
 </head>
+
 <body>
-    
+
     <div class="wrapper">
         <div class="options">
             <div class="opt-wrapper">
                 <div class="slider">
-                    <label for="width-range">Grid width</label>
-                    <input type="range" id="width-range" min="1" max="1">
+                    <label for="width-range">Grid Width</label>
+                    <input type="range" id="width-range" min="1" max="35">
                     <span id="width-value">00</span>
                 </div>
                 <div class="slider">
-                    <label for="height-range">Grid height</label>
-                    <input type="range" id="height-range" min="1" max="1">
+                    <label for="height-range">Grid Height</label>
+                    <input type="range" id="height-range" min="1" max="35">
                     <span id="height-value">00</span>
                 </div>
             </div>
@@ -30,14 +34,15 @@
                 <button id="erase-btn">Erase</button>
                 <button id="paint-btn">Paint</button>
             </div>
+
         </div>
         <div class="container"></div>
-    
     </div>
 
 
 
 
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
